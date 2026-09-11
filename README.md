@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Radiology-AI-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Radiology-AI-Platform?style=for-the-badge&color=blue" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Radiology-AI-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Radiology-AI-Platform?style=for-the-badge&color=blue" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Radiology-AI-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Radiology-AI-Platform?style=for-the-badge&color=orange" alt="Forks" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -266,21 +266,21 @@ The strongest open-source ecosystem is therefore **composable rather than monoli
 
 | Project | Stars | Primary Role | License / Status |
 | --- | :---: | --- | --- |
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Automated medical segmentation framework | Apache-2.0 |
-| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Comprehensive healthcare & medical imaging AI framework | Apache-2.0 |
-| [SegLossOdyssey](https://github.com/JunMa11/SegLossOdyssey) | [![GitHub stars](https://img.shields.io/github/stars/JunMa11/SegLossOdyssey?style=social&color=white)](https://github.com/JunMa11/SegLossOdyssey/stargazers) | Curated collection of loss functions for medical image segmentation | Apache-2.0 |
-| [TransUNet](https://github.com/Beckschen/TransUNet) | [![GitHub stars](https://img.shields.io/github/stars/Beckschen/TransUNet?style=social&color=white)](https://github.com/Beckschen/TransUNet/stargazers) | Transformers as strong encoders for medical image segmentation | Open source |
-| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Pretrained whole-body CT/MR anatomical segmentation | Apache-2.0 / Dual |
-| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | 3D medical-image preprocessing, transforms & augmentation | Apache-2.0 |
-| [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) | [![GitHub stars](https://img.shields.io/github/stars/ellisdg/3DUnetCNN?style=social&color=white)](https://github.com/ellisdg/3DUnetCNN/stargazers) | PyTorch 3D U-Net CNN for volumetric medical segmentation | MIT |
-| [NiftyNet](https://github.com/NifTK/NiftyNet) | [![GitHub stars](https://img.shields.io/github/stars/NifTK/NiftyNet?style=social&color=white)](https://github.com/NifTK/NiftyNet/stargazers) | Deep learning codebase for medical imaging | Archived |
-| [TorchXRayVision](https://github.com/mlmed/torchxrayvision) | [![GitHub stars](https://img.shields.io/github/stars/mlmed/torchxrayvision?style=social&color=white)](https://github.com/mlmed/torchxrayvision/stargazers) | Chest X-ray datasets, pretrained models & classifiers | Apache-2.0 |
-| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D multiscale CNN for medical image segmentation | BSD-3-Clause |
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive AI-assisted annotation and active learning | Apache-2.0 |
-| [nnDetection](https://github.com/MIC-DKFZ/nnDetection) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnDetection?style=social&color=white)](https://github.com/MIC-DKFZ/nnDetection/stargazers) | Self-configuring 3D medical object detection | Apache-2.0 |
-| [NiftyMIC](https://github.com/gift-surg/NiftyMIC) | [![GitHub stars](https://img.shields.io/github/stars/gift-surg/NiftyMIC?style=social&color=white)](https://github.com/gift-surg/NiftyMIC/stargazers) | Motion correction & super-resolution reconstruction | BSD-3-Clause |
-| [ivadomed](https://github.com/ivadomed/ivadomed) | [![GitHub stars](https://img.shields.io/github/stars/ivadomed/ivadomed?style=social&color=white)](https://github.com/ivadomed/ivadomed/stargazers) | Spinal cord & MRI/CT image segmentation | MIT |
-| [MONAI Deploy](https://github.com/Project-MONAI/monai-deploy-app-sdk) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/monai-deploy-app-sdk?style=social&color=white)](https://github.com/Project-MONAI/monai-deploy-app-sdk/stargazers) | Clinical AI deployment, MAP packaging & workflow execution | Apache-2.0 |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub_Stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Automated medical segmentation framework | Apache-2.0 |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Comprehensive healthcare & medical imaging AI framework | Apache-2.0 |
+| [SegLossOdyssey](https://github.com/JunMa11/SegLossOdyssey) | [![GitHub_Stars](https://img.shields.io/github/stars/JunMa11/SegLossOdyssey?style=social&color=white)](https://github.com/JunMa11/SegLossOdyssey/stargazers) | Curated collection of loss functions for medical image segmentation | Apache-2.0 |
+| [TransUNet](https://github.com/Beckschen/TransUNet) | [![GitHub_Stars](https://img.shields.io/github/stars/Beckschen/TransUNet?style=social&color=white)](https://github.com/Beckschen/TransUNet/stargazers) | Transformers as strong encoders for medical image segmentation | Open source |
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub_Stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Pretrained whole-body CT/MR anatomical segmentation | Apache-2.0 / Dual |
+| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub_Stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | 3D medical-image preprocessing, transforms & augmentation | Apache-2.0 |
+| [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) | [![GitHub_Stars](https://img.shields.io/github/stars/ellisdg/3DUnetCNN?style=social&color=white)](https://github.com/ellisdg/3DUnetCNN/stargazers) | PyTorch 3D U-Net CNN for volumetric medical segmentation | MIT |
+| [NiftyNet](https://github.com/NifTK/NiftyNet) | [![GitHub_Stars](https://img.shields.io/github/stars/NifTK/NiftyNet?style=social&color=white)](https://github.com/NifTK/NiftyNet/stargazers) | Deep learning codebase for medical imaging | Archived |
+| [TorchXRayVision](https://github.com/mlmed/torchxrayvision) | [![GitHub_Stars](https://img.shields.io/github/stars/mlmed/torchxrayvision?style=social&color=white)](https://github.com/mlmed/torchxrayvision/stargazers) | Chest X-ray datasets, pretrained models & classifiers | Apache-2.0 |
+| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub_Stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D multiscale CNN for medical image segmentation | BSD-3-Clause |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive AI-assisted annotation and active learning | Apache-2.0 |
+| [nnDetection](https://github.com/MIC-DKFZ/nnDetection) | [![GitHub_Stars](https://img.shields.io/github/stars/MIC-DKFZ/nnDetection?style=social&color=white)](https://github.com/MIC-DKFZ/nnDetection/stargazers) | Self-configuring 3D medical object detection | Apache-2.0 |
+| [NiftyMIC](https://github.com/gift-surg/NiftyMIC) | [![GitHub_Stars](https://img.shields.io/github/stars/gift-surg/NiftyMIC?style=social&color=white)](https://github.com/gift-surg/NiftyMIC/stargazers) | Motion correction & super-resolution reconstruction | BSD-3-Clause |
+| [ivadomed](https://github.com/ivadomed/ivadomed) | [![GitHub_Stars](https://img.shields.io/github/stars/ivadomed/ivadomed?style=social&color=white)](https://github.com/ivadomed/ivadomed/stargazers) | Spinal cord & MRI/CT image segmentation | MIT |
+| [MONAI Deploy](https://github.com/Project-MONAI/monai-deploy-app-sdk) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/monai-deploy-app-sdk?style=social&color=white)](https://github.com/Project-MONAI/monai-deploy-app-sdk/stargazers) | Clinical AI deployment, MAP packaging & workflow execution | Apache-2.0 |
 
 
 
@@ -384,17 +384,17 @@ Segmentation is one of the most mature areas of open-source radiology AI.
 
 | Project | Stars | Main Capability |
 | --- | :---: | --- |
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | General-purpose biomedical segmentation |
-| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Medical segmentation framework |
-| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Multi-organ CT/MR segmentation |
-| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Interactive segmentation environment |
-| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | Data preprocessing / augmentation |
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Medical image processing |
-| [NiftyNet](https://github.com/NifTK/NiftyNet) | [![GitHub stars](https://img.shields.io/github/stars/NifTK/NiftyNet?style=social&color=white)](https://github.com/NifTK/NiftyNet/stargazers) | Medical image deep learning |
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Image-processing toolkit |
-| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D segmentation |
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive segmentation / active learning |
-| [ivadomed](https://github.com/ivadomed/ivadomed) | [![GitHub stars](https://img.shields.io/github/stars/ivadomed/ivadomed?style=social&color=white)](https://github.com/ivadomed/ivadomed/stargazers) | Segmentation of medical images |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub_Stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | General-purpose biomedical segmentation |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Medical segmentation framework |
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub_Stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Multi-organ CT/MR segmentation |
+| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub_Stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Interactive segmentation environment |
+| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub_Stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | Data preprocessing / augmentation |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub_Stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Medical image processing |
+| [NiftyNet](https://github.com/NifTK/NiftyNet) | [![GitHub_Stars](https://img.shields.io/github/stars/NifTK/NiftyNet?style=social&color=white)](https://github.com/NifTK/NiftyNet/stargazers) | Medical image deep learning |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub_Stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Image-processing toolkit |
+| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub_Stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D segmentation |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive segmentation / active learning |
+| [ivadomed](https://github.com/ivadomed/ivadomed) | [![GitHub_Stars](https://img.shields.io/github/stars/ivadomed/ivadomed?style=social&color=white)](https://github.com/ivadomed/ivadomed/stargazers) | Segmentation of medical images |
 
 
 
@@ -472,14 +472,14 @@ Useful for:
 
 | Project | Stars | Focus |
 | --- | :---: | --- |
-| [Ultralytics](https://github.com/ultralytics/ultralytics) | [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers) | General computer vision detection (YOLO) |
-| [Detectron2](https://github.com/facebookresearch/detectron2) | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/detectron2?style=social&color=white)](https://github.com/facebookresearch/detectron2/stargazers) | General object detection framework |
-| [MMDetection](https://github.com/open-mmlab/mmdetection) | [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social&color=white)](https://github.com/open-mmlab/mmdetection/stargazers) | Detection framework |
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Primarily segmentation, extensible to detection |
-| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Detection and classification |
-| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D lesion analysis |
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive AI annotation |
-| [nnDetection](https://github.com/MIC-DKFZ/nnDetection) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnDetection?style=social&color=white)](https://github.com/MIC-DKFZ/nnDetection/stargazers) | 3D medical object detection |
+| [Ultralytics](https://github.com/ultralytics/ultralytics) | [![GitHub_Stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers) | General computer vision detection (YOLO) |
+| [Detectron2](https://github.com/facebookresearch/detectron2) | [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/detectron2?style=social&color=white)](https://github.com/facebookresearch/detectron2/stargazers) | General object detection framework |
+| [MMDetection](https://github.com/open-mmlab/mmdetection) | [![GitHub_Stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social&color=white)](https://github.com/open-mmlab/mmdetection/stargazers) | Detection framework |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub_Stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Primarily segmentation, extensible to detection |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Detection and classification |
+| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub_Stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D lesion analysis |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive AI annotation |
+| [nnDetection](https://github.com/MIC-DKFZ/nnDetection) | [![GitHub_Stars](https://img.shields.io/github/stars/MIC-DKFZ/nnDetection?style=social&color=white)](https://github.com/MIC-DKFZ/nnDetection/stargazers) | 3D medical object detection |
 
 
 
@@ -519,16 +519,16 @@ The ecosystem is increasingly moving from task-specific models toward **foundati
 
 | Project / Model | Stars | Focus |
 | --- | :---: | --- |
-| [SAM 2](https://github.com/facebookresearch/sam2) | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/sam2?style=social&color=white)](https://github.com/facebookresearch/sam2/stargazers) | General segmentation foundation model |
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Self-configuring segmentation framework |
-| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Healthcare AI framework |
-| [MedSAM](https://github.com/bowang-lab/MedSAM) | [![GitHub stars](https://img.shields.io/github/stars/bowang-lab/MedSAM?style=social&color=white)](https://github.com/bowang-lab/MedSAM/stargazers) | Medical image segmentation foundation model |
-| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Anatomical whole-body CT/MRI segmentation |
-| [LLaVA-Med](https://github.com/microsoft/LLaVA-Med) | [![GitHub stars](https://img.shields.io/github/stars/microsoft/LLaVA-Med?style=social&color=white)](https://github.com/microsoft/LLaVA-Med/stargazers) | Medical multimodal reasoning |
-| [SAM-Med2D](https://github.com/OpenGVLab/SAM-Med2D) | [![GitHub stars](https://img.shields.io/github/stars/OpenGVLab/SAM-Med2D?style=social&color=white)](https://github.com/OpenGVLab/SAM-Med2D/stargazers) | Medical 2D segmentation foundation model |
-| [MedCLIP](https://github.com/RyanWangZf/MedCLIP) | [![GitHub stars](https://img.shields.io/github/stars/RyanWangZf/MedCLIP?style=social&color=white)](https://github.com/RyanWangZf/MedCLIP/stargazers) | Medical vision-language learning |
-| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo) | [![GitHub stars](https://img.shields.io/github/stars/snap-stanford/med-flamingo?style=social&color=white)](https://github.com/snap-stanford/med-flamingo/stargazers) | Medical vision-language model |
-| [MONAI Model Zoo](https://github.com/Project-MONAI/model-zoo) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/model-zoo?style=social&color=white)](https://github.com/Project-MONAI/model-zoo/stargazers) | Pretrained medical imaging models |
+| [SAM 2](https://github.com/facebookresearch/sam2) | [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/sam2?style=social&color=white)](https://github.com/facebookresearch/sam2/stargazers) | General segmentation foundation model |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub_Stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Self-configuring segmentation framework |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Healthcare AI framework |
+| [MedSAM](https://github.com/bowang-lab/MedSAM) | [![GitHub_Stars](https://img.shields.io/github/stars/bowang-lab/MedSAM?style=social&color=white)](https://github.com/bowang-lab/MedSAM/stargazers) | Medical image segmentation foundation model |
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub_Stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Anatomical whole-body CT/MRI segmentation |
+| [LLaVA-Med](https://github.com/microsoft/LLaVA-Med) | [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/LLaVA-Med?style=social&color=white)](https://github.com/microsoft/LLaVA-Med/stargazers) | Medical multimodal reasoning |
+| [SAM-Med2D](https://github.com/OpenGVLab/SAM-Med2D) | [![GitHub_Stars](https://img.shields.io/github/stars/OpenGVLab/SAM-Med2D?style=social&color=white)](https://github.com/OpenGVLab/SAM-Med2D/stargazers) | Medical 2D segmentation foundation model |
+| [MedCLIP](https://github.com/RyanWangZf/MedCLIP) | [![GitHub_Stars](https://img.shields.io/github/stars/RyanWangZf/MedCLIP?style=social&color=white)](https://github.com/RyanWangZf/MedCLIP/stargazers) | Medical vision-language learning |
+| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo) | [![GitHub_Stars](https://img.shields.io/github/stars/snap-stanford/med-flamingo?style=social&color=white)](https://github.com/snap-stanford/med-flamingo/stargazers) | Medical vision-language model |
+| [MONAI Model Zoo](https://github.com/Project-MONAI/model-zoo) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/model-zoo?style=social&color=white)](https://github.com/Project-MONAI/model-zoo/stargazers) | Pretrained medical imaging models |
 | [BiomedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224) | *(HF Model)* | Biomedical vision-language foundation model |
 
 
@@ -551,14 +551,14 @@ High-quality radiology AI depends heavily on annotation.
 
 | Project | Stars | Description |
 | --- | :---: | --- |
-| [Label Studio](https://github.com/HumanSignal/label-studio) | [![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social&color=white)](https://github.com/HumanSignal/label-studio/stargazers) | General data and image annotation platform |
-| [CVAT](https://github.com/cvat-ai/cvat) | [![GitHub stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers) | Computer vision annotation tool |
-| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | Web-based DICOM imaging viewer and annotation |
-| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Medical imaging analysis and segmentation |
-| [QuPath](https://github.com/qupath/qupath) | [![GitHub stars](https://img.shields.io/github/stars/qupath/qupath?style=social&color=white)](https://github.com/qupath/qupath/stargazers) | Primarily pathology / bioimage annotation |
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | AI-assisted medical annotation and active learning |
-| [MITK](https://github.com/MITK/MITK) | [![GitHub stars](https://img.shields.io/github/stars/MITK/MITK?style=social&color=white)](https://github.com/MITK/MITK/stargazers) | Medical imaging platform |
-| [ITK-SNAP](https://github.com/pyushkevich/itksnap) | [![GitHub stars](https://img.shields.io/github/stars/pyushkevich/itksnap?style=social&color=white)](https://github.com/pyushkevich/itksnap/stargazers) | 3D medical image segmentation and manual contouring |
+| [Label Studio](https://github.com/HumanSignal/label-studio) | [![GitHub_Stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social&color=white)](https://github.com/HumanSignal/label-studio/stargazers) | General data and image annotation platform |
+| [CVAT](https://github.com/cvat-ai/cvat) | [![GitHub_Stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers) | Computer vision annotation tool |
+| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub_Stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | Web-based DICOM imaging viewer and annotation |
+| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub_Stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Medical imaging analysis and segmentation |
+| [QuPath](https://github.com/qupath/qupath) | [![GitHub_Stars](https://img.shields.io/github/stars/qupath/qupath?style=social&color=white)](https://github.com/qupath/qupath/stargazers) | Primarily pathology / bioimage annotation |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | AI-assisted medical annotation and active learning |
+| [MITK](https://github.com/MITK/MITK) | [![GitHub_Stars](https://img.shields.io/github/stars/MITK/MITK?style=social&color=white)](https://github.com/MITK/MITK/stargazers) | Medical imaging platform |
+| [ITK-SNAP](https://github.com/pyushkevich/itksnap) | [![GitHub_Stars](https://img.shields.io/github/stars/pyushkevich/itksnap?style=social&color=white)](https://github.com/pyushkevich/itksnap/stargazers) | 3D medical image segmentation and manual contouring |
 
 
 
@@ -792,12 +792,12 @@ OHIF is MIT licensed and is designed as an extensible web medical-imaging platfo
 
 | Project | Stars | Type |
 | --- | :---: | --- |
-| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | Extensible Web DICOM viewer (v3 / Cornerstone) |
-| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Desktop clinical imaging & research workstation |
-| [Weasis](https://github.com/nroduit/Weasis) | [![GitHub stars](https://img.shields.io/github/stars/nroduit/Weasis?style=social&color=white)](https://github.com/nroduit/Weasis/stargazers) | Cross-platform standalone & web-linked DICOM viewer |
-| [Cornerstone3D](https://github.com/cornerstonejs/cornerstone3D) | [![GitHub stars](https://img.shields.io/github/stars/cornerstonejs/cornerstone3D?style=social&color=white)](https://github.com/cornerstonejs/cornerstone3D/stargazers) | High-performance WebGL/WebGPU web imaging viewport toolkit |
-| [MITK](https://github.com/MITK/MITK) | [![GitHub stars](https://img.shields.io/github/stars/MITK/MITK?style=social&color=white)](https://github.com/MITK/MITK/stargazers) | Medical imaging interaction & algorithm platform |
-| [Horos](https://github.com/horosproject/horos) | [![GitHub stars](https://img.shields.io/github/stars/horosproject/horos?style=social&color=white)](https://github.com/horosproject/horos/stargazers) | macOS 64-bit medical imaging viewer |
+| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub_Stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | Extensible Web DICOM viewer (v3 / Cornerstone) |
+| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub_Stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Desktop clinical imaging & research workstation |
+| [Weasis](https://github.com/nroduit/Weasis) | [![GitHub_Stars](https://img.shields.io/github/stars/nroduit/Weasis?style=social&color=white)](https://github.com/nroduit/Weasis/stargazers) | Cross-platform standalone & web-linked DICOM viewer |
+| [Cornerstone3D](https://github.com/cornerstonejs/cornerstone3D) | [![GitHub_Stars](https://img.shields.io/github/stars/cornerstonejs/cornerstone3D?style=social&color=white)](https://github.com/cornerstonejs/cornerstone3D/stargazers) | High-performance WebGL/WebGPU web imaging viewport toolkit |
+| [MITK](https://github.com/MITK/MITK) | [![GitHub_Stars](https://img.shields.io/github/stars/MITK/MITK?style=social&color=white)](https://github.com/MITK/MITK/stargazers) | Medical imaging interaction & algorithm platform |
+| [Horos](https://github.com/horosproject/horos) | [![GitHub_Stars](https://img.shields.io/github/stars/horosproject/horos?style=social&color=white)](https://github.com/horosproject/horos/stargazers) | macOS 64-bit medical imaging viewer |
 | [Stone Web Viewer](https://www.orthanc-server.com/static.php?page=stone-web-viewer) | *(Orthanc Plugin)* | Lightweight WebAssembly DICOM web viewer for Orthanc |
 
 
@@ -816,10 +816,10 @@ A radiology AI system normally needs a DICOM archive or gateway.
 
 | Project | Stars | Primary Role |
 | --- | :---: | --- |
-| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | DICOMweb imaging viewer |
-| [dcm4che](https://github.com/dcm4che/dcm4che) | [![GitHub stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | DICOM toolkit & healthcare application collection |
-| [dcm4chee-arc](https://github.com/dcm4che/dcm4chee-arc-light) | [![GitHub stars](https://img.shields.io/github/stars/dcm4che/dcm4chee-arc-light?style=social&color=white)](https://github.com/dcm4che/dcm4chee-arc-light/stargazers) | Enterprise PACS / DICOM archive |
-| [Orthanc](https://github.com/jodogne/Orthanc) | [![GitHub stars](https://img.shields.io/github/stars/jodogne/Orthanc?style=social&color=white)](https://github.com/jodogne/Orthanc/stargazers) | Lightweight, RESTful DICOM server for medical imaging |
+| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub_Stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | DICOMweb imaging viewer |
+| [dcm4che](https://github.com/dcm4che/dcm4che) | [![GitHub_Stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | DICOM toolkit & healthcare application collection |
+| [dcm4chee-arc](https://github.com/dcm4che/dcm4chee-arc-light) | [![GitHub_Stars](https://img.shields.io/github/stars/dcm4che/dcm4chee-arc-light?style=social&color=white)](https://github.com/dcm4che/dcm4chee-arc-light/stargazers) | Enterprise PACS / DICOM archive |
+| [Orthanc](https://github.com/jodogne/Orthanc) | [![GitHub_Stars](https://img.shields.io/github/stars/jodogne/Orthanc?style=social&color=white)](https://github.com/jodogne/Orthanc/stargazers) | Lightweight, RESTful DICOM server for medical imaging |
 | [Conquest DICOM Server](https://github.com/marcelvanherk/Conquest-DICOM-Server) | *(Open Source)* | Full-featured clinical & research DICOM server |
 | [Orthanc DICOMweb](https://www.orthanc-server.com/) | *(Plugin)* | Official DICOMweb (WADO-RS, QIDO-RS, STOW-RS) plugin for Orthanc |
 | [DICOMweb](https://www.dicomstandard.org/using/dicomweb) | *(Standard)* | Web-based standard for medical imaging communication |
@@ -872,14 +872,14 @@ Orthanc is particularly useful for development because it provides a lightweight
 
 | Project | Stars | Language | Purpose |
 | --- | :---: | --- | --- |
-| [pydicom](https://github.com/pydicom/pydicom) | [![GitHub stars](https://img.shields.io/github/stars/pydicom/pydicom?style=social&color=white)](https://github.com/pydicom/pydicom/stargazers) | Python | Comprehensive DICOM file reading, writing & manipulation |
-| [dcm4che](https://github.com/dcm4che/dcm4che) | [![GitHub stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | Java | Complete clinical DICOM toolkit and library suite |
-| [fo-dicom](https://github.com/fo-dicom/fo-dicom) | [![GitHub stars](https://img.shields.io/github/stars/fo-dicom/fo-dicom?style=social&color=white)](https://github.com/fo-dicom/fo-dicom/stargazers) | C# / .NET | Cross-platform DICOM implementation for .NET Framework & .NET Core |
-| [DCMTK](https://github.com/DCMTK/dcmtk) | [![GitHub stars](https://img.shields.io/github/stars/DCMTK/dcmtk?style=social&color=white)](https://github.com/DCMTK/dcmtk/stargazers) | C++ | Industry-standard reference DICOM toolkit and utilities |
-| [pynetdicom](https://github.com/pydicom/pynetdicom) | [![GitHub stars](https://img.shields.io/github/stars/pydicom/pynetdicom?style=social&color=white)](https://github.com/pydicom/pynetdicom/stargazers) | Python | Python implementation of the DICOM networking protocol |
-| [GDCM](https://github.com/malaterre/GDCM) | [![GitHub stars](https://img.shields.io/github/stars/malaterre/GDCM?style=social&color=white)](https://github.com/malaterre/GDCM/stargazers) | C++ / Python | Grassroots DICOM library designed for complex medical formats |
-| [highdicom](https://github.com/ImagingDataCommons/highdicom) | [![GitHub stars](https://img.shields.io/github/stars/ImagingDataCommons/highdicom?style=social&color=white)](https://github.com/ImagingDataCommons/highdicom/stargazers) | Python | High-level DICOM objects for AI (DICOM SR, SEG, Parametric Maps) |
-| [dicomweb-client](https://github.com/dcmjs-org/dicomweb-client) | [![GitHub stars](https://img.shields.io/github/stars/dcmjs-org/dicomweb-client?style=social&color=white)](https://github.com/dcmjs-org/dicomweb-client/stargazers) | Python | Client for DICOMweb RESTful services (WADO-RS, QIDO-RS, STOW-RS) |
+| [pydicom](https://github.com/pydicom/pydicom) | [![GitHub_Stars](https://img.shields.io/github/stars/pydicom/pydicom?style=social&color=white)](https://github.com/pydicom/pydicom/stargazers) | Python | Comprehensive DICOM file reading, writing & manipulation |
+| [dcm4che](https://github.com/dcm4che/dcm4che) | [![GitHub_Stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | Java | Complete clinical DICOM toolkit and library suite |
+| [fo-dicom](https://github.com/fo-dicom/fo-dicom) | [![GitHub_Stars](https://img.shields.io/github/stars/fo-dicom/fo-dicom?style=social&color=white)](https://github.com/fo-dicom/fo-dicom/stargazers) | C# / .NET | Cross-platform DICOM implementation for .NET Framework & .NET Core |
+| [DCMTK](https://github.com/DCMTK/dcmtk) | [![GitHub_Stars](https://img.shields.io/github/stars/DCMTK/dcmtk?style=social&color=white)](https://github.com/DCMTK/dcmtk/stargazers) | C++ | Industry-standard reference DICOM toolkit and utilities |
+| [pynetdicom](https://github.com/pydicom/pynetdicom) | [![GitHub_Stars](https://img.shields.io/github/stars/pydicom/pynetdicom?style=social&color=white)](https://github.com/pydicom/pynetdicom/stargazers) | Python | Python implementation of the DICOM networking protocol |
+| [GDCM](https://github.com/malaterre/GDCM) | [![GitHub_Stars](https://img.shields.io/github/stars/malaterre/GDCM?style=social&color=white)](https://github.com/malaterre/GDCM/stargazers) | C++ / Python | Grassroots DICOM library designed for complex medical formats |
+| [highdicom](https://github.com/ImagingDataCommons/highdicom) | [![GitHub_Stars](https://img.shields.io/github/stars/ImagingDataCommons/highdicom?style=social&color=white)](https://github.com/ImagingDataCommons/highdicom/stargazers) | Python | High-level DICOM objects for AI (DICOM SR, SEG, Parametric Maps) |
+| [dicomweb-client](https://github.com/dcmjs-org/dicomweb-client) | [![GitHub_Stars](https://img.shields.io/github/stars/dcmjs-org/dicomweb-client?style=social&color=white)](https://github.com/dcmjs-org/dicomweb-client/stargazers) | Python | Client for DICOMweb RESTful services (WADO-RS, QIDO-RS, STOW-RS) |
 | [DICOMweb](https://www.dicomstandard.org/using/dicomweb) | *(Standard)* | Standard | Official Web standard for medical imaging communication |
 
 
@@ -894,15 +894,15 @@ Orthanc is particularly useful for development because it provides a lightweight
 
 | Project | Stars | Purpose |
 | --- | :---: | --- |
-| [VTK](https://github.com/Kitware/VTK) | [![GitHub stars](https://img.shields.io/github/stars/Kitware/VTK?style=social&color=white)](https://github.com/Kitware/VTK/stargazers) | Scientific visualization and 3D volume rendering engine |
-| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | Medical imaging preprocessing, spatial transforms & augmentation |
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Fundamental C++ medical image segmentation and registration |
-| [VTK.js](https://github.com/Kitware/vtk-js) | [![GitHub stars](https://img.shields.io/github/stars/Kitware/vtk-js?style=social&color=white)](https://github.com/Kitware/vtk-js/stargazers) | Web browser-based scientific visualization & medical volume rendering |
-| [ANTs](https://github.com/ANTsX/ANTs) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=social&color=white)](https://github.com/ANTsX/ANTs/stargazers) | Advanced normalization tools for image registration & morphometry |
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Simplified Python/C++ interface to the Insight Segmentation and Registration Toolkit |
-| [ANTsPy](https://github.com/ANTsX/ANTsPy) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTsPy?style=social&color=white)](https://github.com/ANTsX/ANTsPy/stargazers) | High-performance Python interface to ANTs image registration algorithms |
-| [NiBabel](https://github.com/nipy/nibabel) | [![GitHub stars](https://img.shields.io/github/stars/nipy/nibabel?style=social&color=white)](https://github.com/nipy/nibabel/stargazers) | Neuroimaging format parser (NIfTI, Analyze, FreeSurfer, DICOM) |
-| [Plastimatch](https://github.com/CGTATO/Plastimatch) | [![GitHub stars](https://img.shields.io/github/stars/CGTATO/Plastimatch?style=social&color=white)](https://github.com/CGTATO/Plastimatch/stargazers) | Volumetric image computation, B-spline deformable registration & RT |
+| [VTK](https://github.com/Kitware/VTK) | [![GitHub_Stars](https://img.shields.io/github/stars/Kitware/VTK?style=social&color=white)](https://github.com/Kitware/VTK/stargazers) | Scientific visualization and 3D volume rendering engine |
+| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub_Stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | Medical imaging preprocessing, spatial transforms & augmentation |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub_Stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Fundamental C++ medical image segmentation and registration |
+| [VTK.js](https://github.com/Kitware/vtk-js) | [![GitHub_Stars](https://img.shields.io/github/stars/Kitware/vtk-js?style=social&color=white)](https://github.com/Kitware/vtk-js/stargazers) | Web browser-based scientific visualization & medical volume rendering |
+| [ANTs](https://github.com/ANTsX/ANTs) | [![GitHub_Stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=social&color=white)](https://github.com/ANTsX/ANTs/stargazers) | Advanced normalization tools for image registration & morphometry |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub_Stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Simplified Python/C++ interface to the Insight Segmentation and Registration Toolkit |
+| [ANTsPy](https://github.com/ANTsX/ANTsPy) | [![GitHub_Stars](https://img.shields.io/github/stars/ANTsX/ANTsPy?style=social&color=white)](https://github.com/ANTsX/ANTsPy/stargazers) | High-performance Python interface to ANTs image registration algorithms |
+| [NiBabel](https://github.com/nipy/nibabel) | [![GitHub_Stars](https://img.shields.io/github/stars/nipy/nibabel?style=social&color=white)](https://github.com/nipy/nibabel/stargazers) | Neuroimaging format parser (NIfTI, Analyze, FreeSurfer, DICOM) |
+| [Plastimatch](https://github.com/CGTATO/Plastimatch) | [![GitHub_Stars](https://img.shields.io/github/stars/CGTATO/Plastimatch?style=social&color=white)](https://github.com/CGTATO/Plastimatch/stargazers) | Volumetric image computation, B-spline deformable registration & RT |
 
 
 
@@ -936,12 +936,12 @@ Image registration is critical for:
 
 | Project | Stars | Main Capability |
 | --- | :---: | --- |
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Core C++ medical registration and transformation framework |
-| [ANTs](https://github.com/ANTsX/ANTs) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=social&color=white)](https://github.com/ANTsX/ANTs/stargazers) | Symmetric diffeomorphic (SyN) deformable registration |
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Multi-language image registration and filter interface |
-| [ANTsPy](https://github.com/ANTsX/ANTsPy) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTsPy?style=social&color=white)](https://github.com/ANTsX/ANTsPy/stargazers) | Pythonic deformable and rigid registration |
-| [Elastix](https://github.com/SuperElastix/elastix) | [![GitHub stars](https://img.shields.io/github/stars/SuperElastix/elastix?style=social&color=white)](https://github.com/SuperElastix/elastix/stargazers) | Modular intensity-based medical image registration tool |
-| [Plastimatch](https://github.com/CGTATO/Plastimatch) | [![GitHub stars](https://img.shields.io/github/stars/CGTATO/Plastimatch?style=social&color=white)](https://github.com/CGTATO/Plastimatch/stargazers) | B-spline deformable registration & radiotherapy analysis |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub_Stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Core C++ medical registration and transformation framework |
+| [ANTs](https://github.com/ANTsX/ANTs) | [![GitHub_Stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=social&color=white)](https://github.com/ANTsX/ANTs/stargazers) | Symmetric diffeomorphic (SyN) deformable registration |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub_Stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Multi-language image registration and filter interface |
+| [ANTsPy](https://github.com/ANTsX/ANTsPy) | [![GitHub_Stars](https://img.shields.io/github/stars/ANTsX/ANTsPy?style=social&color=white)](https://github.com/ANTsX/ANTsPy/stargazers) | Pythonic deformable and rigid registration |
+| [Elastix](https://github.com/SuperElastix/elastix) | [![GitHub_Stars](https://img.shields.io/github/stars/SuperElastix/elastix?style=social&color=white)](https://github.com/SuperElastix/elastix/stargazers) | Modular intensity-based medical image registration tool |
+| [Plastimatch](https://github.com/CGTATO/Plastimatch) | [![GitHub_Stars](https://img.shields.io/github/stars/CGTATO/Plastimatch?style=social&color=white)](https://github.com/CGTATO/Plastimatch/stargazers) | B-spline deformable registration & radiotherapy analysis |
 
 
 
@@ -1005,10 +1005,10 @@ Prediction
 
 | Project | Stars | Description |
 | --- | :---: | --- |
-| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Healthcare and medical imaging AI deep learning framework |
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Biomedical image spatial processing and segmentation library |
-| [PyRadiomics](https://github.com/AIM-Harvard/pyradiomics) | [![GitHub stars](https://img.shields.io/github/stars/AIM-Harvard/pyradiomics?style=social&color=white)](https://github.com/AIM-Harvard/pyradiomics/stargazers) | Reference open-source radiomics feature extraction toolkit |
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Streamlined Python image processing layer for radiomic ROI masking |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub_Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Healthcare and medical imaging AI deep learning framework |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub_Stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Biomedical image spatial processing and segmentation library |
+| [PyRadiomics](https://github.com/AIM-Harvard/pyradiomics) | [![GitHub_Stars](https://img.shields.io/github/stars/AIM-Harvard/pyradiomics?style=social&color=white)](https://github.com/AIM-Harvard/pyradiomics/stargazers) | Reference open-source radiomics feature extraction toolkit |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub_Stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Streamlined Python image processing layer for radiomic ROI masking |
 
 
 

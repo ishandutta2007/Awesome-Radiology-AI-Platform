@@ -148,41 +148,24 @@ Commercial radiology AI companies generally package models, workflow integration
 
 
 
-| Platform                                                                           | Company        | Primary Focus                  | Typical Capabilities                                                                       |
-
-| ---------------------------------------------------------------------------------- | -------------- | ------------------------------ | ------------------------------------------------------------------------------------------ |
-
-| [Aidoc](https://www.aidoc.com/)                                                    | Aidoc          | Clinical radiology AI          | Detection, triage, workflow prioritization and multiple imaging findings                   |
-
-| [Qure.ai](https://qure.ai/)                                                        | Qure.ai        | Medical imaging AI             | Chest X-ray, CT, TB, stroke and other imaging applications                                 |
-
-| [Lunit](https://www.lunit.io/)                                                     | Lunit          | Imaging AI                     | Chest X-ray and oncology / mammography AI                                                  |
-
-| [Oxipit](https://www.oxipit.com/)                                                  | Oxipit         | Autonomous radiology AI        | Chest X-ray analysis and automated reporting workflows                                     |
-
-| [Subtle Medical](https://subtlemedical.com/)                                       | Subtle Medical | Image enhancement              | MRI/PET enhancement, contrast and scan optimization                                        |
-
-| [Arterys](https://www.arterys.com/)                                                | Arterys        | Cloud medical imaging AI       | Cardiac, oncology and imaging analysis                                                     |
-
-| [Gleamer](https://www.gleamer.ai/)                                                 | Gleamer        | Musculoskeletal AI             | X-ray detection and radiology assistance                                                   |
-
-| [Rad AI](https://www.radai.com/)                                                   | Rad AI         | Radiology workflow             | Reporting, workflow optimization and generative AI                                         |
-
-| [Annalise.ai](https://annalise.ai/)                                                | Annalise.ai    | Chest / radiology AI           | Multi-finding chest X-ray decision support                                                 |
-
-| [Nanox AI](https://www.nanox.vision/)                                              | Nanox AI       | Imaging AI                     | Radiology AI and imaging analysis; includes technology descended from Zebra Medical Vision |
-
-| [RapidAI](https://www.rapidai.com/)                                                | RapidAI        | Neurovascular AI               | Stroke and neurovascular imaging                                                           |
-
-| [Viz.ai](https://www.viz.ai/)                                                      | Viz.ai         | Care coordination / imaging AI | Stroke, cardiovascular and acute-care AI                                                   |
-
-| [Aidoc-like AI platforms](https://www.aidoc.com/)                                  | Various        | Enterprise radiology AI        | Detection, triage, orchestration and workflow                                              |
-
-| [DeepHealth](https://deephealth.com/)                                              | DeepHealth     | Imaging AI                     | Radiology workflow and medical imaging AI                                                  |
-
-| [HeartFlow](https://www.heartflow.com/)                                            | HeartFlow      | Cardiac imaging                | CT-derived coronary analysis                                                               |
-
-| [NVIDIA Clara / Healthcare AI](https://developer.nvidia.com/industries/healthcare) | NVIDIA         | AI infrastructure              | Medical imaging AI development and deployment                                              |
+| Platform | Company | Primary Focus | Typical Capabilities | Pricing (Starting Tier / Standard Rate) | Free Tier Limits / Free Trial Limits |
+| --- | --- | --- | --- | --- | --- |
+| [Aidoc](https://www.aidoc.com/) | Aidoc | Clinical radiology AI | Detection, triage, workflow prioritization and multiple imaging findings | Starts at ~$6.00/scan/algorithm (marketplace) or ~$50,000/site/year baseline enterprise contract | No free-for-ever tier; clinical pilot trials granted on request (typically 30–90 day hospital site pilot) |
+| [Qure.ai](https://qure.ai/) | Qure.ai | Medical imaging AI | Chest X-ray, CT, TB, stroke and other imaging applications | Starts at ~$1.50–$3.50/scan (₹120–₹300/scan pay-per-study) or ~$15,000/year annual SaaS tier | No free-for-ever tier; free trial limited to 30-day clinical POC / institutional evaluation pilot |
+| [Lunit](https://www.lunit.io/) | Lunit | Imaging AI | Chest X-ray and oncology / mammography AI | Starts at ~$2.00–$5.00/scan volume tier or ~$20,000/year baseline clinical license | No free-for-ever tier; free trial limited to 14-day web demo evaluation / 30-day institutional pilot |
+| [Oxipit](https://www.oxipit.com/) | Oxipit | Autonomous radiology AI | Chest X-ray analysis and automated reporting workflows | Starts at ~$1.00–$3.00/CXR study or ~$12,000/year hospital subscription | No free-for-ever tier; offers free one-time retrospective quality audit pilot on up to 1,000 CXR studies |
+| [Subtle Medical](https://subtlemedical.com/) | Subtle Medical | Image enhancement | MRI/PET enhancement, contrast and scan optimization | Starts at ~$1,500/month/scanner or ~$18,000/year per imaging unit | No free-for-ever tier; offers a 90-day free trial / clinical trial license for SubtlePET/SubtleMR |
+| [Arterys](https://www.arterys.com/) | Arterys (Tempus) | Cloud medical imaging AI | Cardiac, oncology and imaging analysis | Starts at ~$3,000/month (~$36,000/year) clinical departmental tier | No free-for-ever tier; offers 30-day proof-of-concept institutional evaluation trial |
+| [Gleamer](https://www.gleamer.ai/) | Gleamer | Musculoskeletal AI | X-ray detection and radiology assistance | Starts at ~$2.50/bone X-ray study or ~$15,000/year clinic subscription | No free-for-ever tier; offers a 30-day clinical workflow pilot trial for radiology departments |
+| [Rad AI](https://www.radai.com/) | Rad AI | Radiology workflow | Reporting, workflow optimization and generative AI | Starts at ~$150/radiologist/month (~$1,800/seat/year) for reporting tools | No free-for-ever tier; 30-day clinical departmental evaluation trial (up to 10 radiologists) |
+| [Annalise.ai](https://annalise.ai/) | Annalise.ai | Chest / radiology AI | Multi-finding chest X-ray decision support | Starts at ~$2.00–$5.00/chest study or ~$18,000/year institutional tier | No free-for-ever tier; provides 30-day clinical department pilot evaluation on request |
+| [Nanox AI](https://www.nanox.vision/) | Nanox AI | Imaging AI | Radiology AI and imaging analysis; includes technology descended from Zebra Medical Vision | Starts at ~$1.00–$4.00/scan (historically $1.00/scan for Zebra AI1) or ~$24,000/year site contract | No free-for-ever tier; offers 30-day institutional evaluation trial / multi-site clinical pilot |
+| [RapidAI](https://www.rapidai.com/) | RapidAI | Neurovascular AI | Stroke and neurovascular imaging | Starts at ~$25,000/hospital/year baseline neuro suite (qualifies for CMS NTAP up to 65% tech cost) | No free-for-ever tier; offers 30-day comprehensive stroke team trial / multi-center pilot |
+| [Viz.ai](https://www.viz.ai/) | Viz.ai | Care coordination / imaging AI | Stroke, cardiovascular and acute-care AI | Starts at ~$25,000/center/year baseline stroke network tier (historically CMS NTAP up to $1,040/patient) | No free-for-ever tier; offers 30-day care-coordination pilot trial across primary stroke centers |
+| [Aidoc-like AI platforms](https://www.aidoc.com/) | Various | Enterprise radiology AI | Detection, triage, orchestration and workflow | Starts at ~$6.00/scan or ~$35,000–$50,000/year baseline departmental license | No free-for-ever tier; evaluation trials typically negotiated as 30-day to 60-day POC pilots |
+| [DeepHealth](https://deephealth.com/) | DeepHealth (RadNet) | Imaging AI | Radiology workflow and medical imaging AI | Starts at ~$3.00–$8.00/exam or ~$30,000/year clinical imaging center tier | No free-for-ever tier; offers 30-day institutional diagnostic suite trial / pilot deployment |
+| [HeartFlow](https://www.heartflow.com/) | HeartFlow | Cardiac imaging | CT-derived coronary analysis | ~$877–$887/analysis (CMS OPPS APC 5724 rate $877; PFS CPT 75580 global rate $887) | No free-for-ever tier; clinical evaluation trial offered on request (typically 30 days or first 10 patient cases) |
+| [NVIDIA Clara / Healthcare AI](https://developer.nvidia.com/industries/healthcare) | NVIDIA | AI infrastructure | Medical imaging AI development and deployment | Starts at $4,500/GPU/year (NVIDIA AI Enterprise standard subscription); cloud instances at ~$1.00/GPU/hr | Free tier available via NGC Catalog (unlimited free access to containers, pretrained models & NIMs for non-production development); 90-day free trial for NVIDIA AI Enterprise production stack |
 
 
 

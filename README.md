@@ -1,10 +1,25 @@
-# Awesome-Radiology-AI-Platform
+<div align="center">
 
-# 🩻 Top Radiology AI Platforms & Open-Source Radiology AI
+<a href="https://github.com/ishandutta2007/Awesome-Radiology-AI-Platform">
+  <img src="./assets/banner.svg" alt="Awesome Radiology AI Platform Banner" width="100%" />
+</a>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Radiology-AI-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Radiology-AI-Platform?style=for-the-badge&color=blue" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Radiology-AI-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Radiology-AI-Platform?style=for-the-badge&color=orange" alt="Forks" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+# 🩻 Awesome Radiology AI Platform & Open-Source Medical Imaging
 
-> A curated list of **Radiology AI platforms, medical imaging AI companies, clinical AI software, open-source medical imaging frameworks, segmentation models, DICOM infrastructure, annotation tools and self-hostable radiology AI software**.
+**A comprehensive, SEO-optimized directory of Clinical Radiology AI platforms, Enterprise SaaS Diagnostic Software, Medical Computer Vision, Open-Source Segmentation Frameworks (MONAI, nnU-Net, TotalSegmentator), Foundation Models, DICOM Viewers (OHIF, 3D Slicer), and PACS Infrastructure (Orthanc, dcm4chee).**
+
+</div>
+
+> 🎯 **Overview:** A curated list of **Radiology AI platforms, medical imaging AI companies, clinical AI software, open-source medical imaging frameworks, segmentation models, DICOM infrastructure, annotation tools and self-hostable radiology AI software**. Updated regularly for clinical researchers, healthcare AI engineers, and radiologists.
 
 
 
@@ -130,6 +145,8 @@ This repository focuses primarily on **open-source and self-hostable software** 
 
 * [🧠 Why Open-Source Radiology AI Matters](#-why-open-source-radiology-ai-matters)
 
+* [⭐ Star History](#-star-history)
+
 * [🤝 Contributing](#-contributing)
 
 * [⚠️ Disclaimer](#️-disclaimer)
@@ -146,26 +163,26 @@ This repository focuses primarily on **open-source and self-hostable software** 
 
 Commercial radiology AI companies generally package models, workflow integration, clinical validation and deployment infrastructure into a healthcare product.
 
+> 🌐 **Market Overview & Structure:** The global radiology & medical imaging AI market is estimated at **$2.3B to $3.7B in 2026** (scaling to over **$14B–$20B+** when factoring in integrated AI-enabled hardware/scanners and enterprise imaging infrastructure). The sector is **moderately concentrated**—tier-1 medtech giants (GE HealthCare, Siemens Healthineers, Philips) and dominant clinical AI suites (Aidoc, Viz.ai, HeartFlow) anchor ~60–65% of large hospital system deployments, yet the market remains **moderately fragmented** with specialized point-solution innovators continually competing in high-impact niche pathologies and multimodal foundation workflows rather than a pure single-winner-take-all monopoly.
 
-
-| Platform | Company | Primary Focus | Typical Capabilities | Pricing (Starting Tier / Standard Rate) | Free Tier Limits / Free Trial Limits |
-| --- | --- | --- | --- | --- | --- |
-| [Aidoc](https://www.aidoc.com/) | Aidoc | Clinical radiology AI | Detection, triage, workflow prioritization and multiple imaging findings | Starts at ~$6.00/scan/algorithm (marketplace) or ~$50,000/site/year baseline enterprise contract | No free-for-ever tier; clinical pilot trials granted on request (typically 30–90 day hospital site pilot) |
-| [Qure.ai](https://qure.ai/) | Qure.ai | Medical imaging AI | Chest X-ray, CT, TB, stroke and other imaging applications | Starts at ~$1.50–$3.50/scan (₹120–₹300/scan pay-per-study) or ~$15,000/year annual SaaS tier | No free-for-ever tier; free trial limited to 30-day clinical POC / institutional evaluation pilot |
-| [Lunit](https://www.lunit.io/) | Lunit | Imaging AI | Chest X-ray and oncology / mammography AI | Starts at ~$2.00–$5.00/scan volume tier or ~$20,000/year baseline clinical license | No free-for-ever tier; free trial limited to 14-day web demo evaluation / 30-day institutional pilot |
-| [Oxipit](https://www.oxipit.com/) | Oxipit | Autonomous radiology AI | Chest X-ray analysis and automated reporting workflows | Starts at ~$1.00–$3.00/CXR study or ~$12,000/year hospital subscription | No free-for-ever tier; offers free one-time retrospective quality audit pilot on up to 1,000 CXR studies |
-| [Subtle Medical](https://subtlemedical.com/) | Subtle Medical | Image enhancement | MRI/PET enhancement, contrast and scan optimization | Starts at ~$1,500/month/scanner or ~$18,000/year per imaging unit | No free-for-ever tier; offers a 90-day free trial / clinical trial license for SubtlePET/SubtleMR |
-| [Arterys](https://www.arterys.com/) | Arterys (Tempus) | Cloud medical imaging AI | Cardiac, oncology and imaging analysis | Starts at ~$3,000/month (~$36,000/year) clinical departmental tier | No free-for-ever tier; offers 30-day proof-of-concept institutional evaluation trial |
-| [Gleamer](https://www.gleamer.ai/) | Gleamer | Musculoskeletal AI | X-ray detection and radiology assistance | Starts at ~$2.50/bone X-ray study or ~$15,000/year clinic subscription | No free-for-ever tier; offers a 30-day clinical workflow pilot trial for radiology departments |
-| [Rad AI](https://www.radai.com/) | Rad AI | Radiology workflow | Reporting, workflow optimization and generative AI | Starts at ~$150/radiologist/month (~$1,800/seat/year) for reporting tools | No free-for-ever tier; 30-day clinical departmental evaluation trial (up to 10 radiologists) |
-| [Annalise.ai](https://annalise.ai/) | Annalise.ai | Chest / radiology AI | Multi-finding chest X-ray decision support | Starts at ~$2.00–$5.00/chest study or ~$18,000/year institutional tier | No free-for-ever tier; provides 30-day clinical department pilot evaluation on request |
-| [Nanox AI](https://www.nanox.vision/) | Nanox AI | Imaging AI | Radiology AI and imaging analysis; includes technology descended from Zebra Medical Vision | Starts at ~$1.00–$4.00/scan (historically $1.00/scan for Zebra AI1) or ~$24,000/year site contract | No free-for-ever tier; offers 30-day institutional evaluation trial / multi-site clinical pilot |
-| [RapidAI](https://www.rapidai.com/) | RapidAI | Neurovascular AI | Stroke and neurovascular imaging | Starts at ~$25,000/hospital/year baseline neuro suite (qualifies for CMS NTAP up to 65% tech cost) | No free-for-ever tier; offers 30-day comprehensive stroke team trial / multi-center pilot |
-| [Viz.ai](https://www.viz.ai/) | Viz.ai | Care coordination / imaging AI | Stroke, cardiovascular and acute-care AI | Starts at ~$25,000/center/year baseline stroke network tier (historically CMS NTAP up to $1,040/patient) | No free-for-ever tier; offers 30-day care-coordination pilot trial across primary stroke centers |
-| [Aidoc-like AI platforms](https://www.aidoc.com/) | Various | Enterprise radiology AI | Detection, triage, orchestration and workflow | Starts at ~$6.00/scan or ~$35,000–$50,000/year baseline departmental license | No free-for-ever tier; evaluation trials typically negotiated as 30-day to 60-day POC pilots |
-| [DeepHealth](https://deephealth.com/) | DeepHealth (RadNet) | Imaging AI | Radiology workflow and medical imaging AI | Starts at ~$3.00–$8.00/exam or ~$30,000/year clinical imaging center tier | No free-for-ever tier; offers 30-day institutional diagnostic suite trial / pilot deployment |
-| [HeartFlow](https://www.heartflow.com/) | HeartFlow | Cardiac imaging | CT-derived coronary analysis | ~$877–$887/analysis (CMS OPPS APC 5724 rate $877; PFS CPT 75580 global rate $887) | No free-for-ever tier; clinical evaluation trial offered on request (typically 30 days or first 10 patient cases) |
-| [NVIDIA Clara / Healthcare AI](https://developer.nvidia.com/industries/healthcare) | NVIDIA | AI infrastructure | Medical imaging AI development and deployment | Starts at $4,500/GPU/year (NVIDIA AI Enterprise standard subscription); cloud instances at ~$1.00/GPU/hr | Free tier available via NGC Catalog (unlimited free access to containers, pretrained models & NIMs for non-production development); 90-day free trial for NVIDIA AI Enterprise production stack |
+| Platform | Company | Company Scale & Valuation / Revenue | Primary Focus | Typical Capabilities | Pricing (Starting Tier / Standard Rate) | Free Tier Limits / Free Trial Limits |
+| --- | --- | --- | --- | --- | --- | --- |
+| [NVIDIA Clara / Healthcare AI](https://developer.nvidia.com/industries/healthcare) | NVIDIA | ~$5.3T Market Cap (~$216B Revenue) | AI infrastructure | Medical imaging AI development and deployment | Starts at $4,500/GPU/year (NVIDIA AI Enterprise standard subscription); cloud instances at ~$1.00/GPU/hr | Free tier available via NGC Catalog (unlimited free access to containers, pretrained models & NIMs for non-production development); 90-day free trial for NVIDIA AI Enterprise production stack |
+| [Arterys](https://www.arterys.com/) | Arterys (Tempus AI) | ~$11.5B Market Cap (~$1.5B Revenue run-rate) | Cloud medical imaging AI | Cardiac, oncology and imaging analysis | Starts at ~$3,000/month (~$36,000/year) clinical departmental tier | No free-for-ever tier; offers 30-day proof-of-concept institutional evaluation trial |
+| [DeepHealth](https://deephealth.com/) | DeepHealth (RadNet) | ~$6.0B Market Cap (~$1.5B+ RadNet Revenue) | Imaging AI | Radiology workflow and medical imaging AI | Starts at ~$3.00–$8.00/exam or ~$30,000/year clinical imaging center tier | No free-for-ever tier; offers 30-day institutional diagnostic suite trial / pilot deployment |
+| [HeartFlow](https://www.heartflow.com/) | HeartFlow | ~$1.5B Valuation (~$200M+ ARR) | Cardiac imaging | CT-derived coronary analysis | ~$877–$887/analysis (CMS OPPS APC 5724 rate $877; PFS CPT 75580 global rate $887) | No free-for-ever tier; clinical evaluation trial offered on request (typically 30 days or first 10 patient cases) |
+| [Viz.ai](https://www.viz.ai/) | Viz.ai | ~$1.2B Valuation (~$80M–$100M ARR) | Care coordination / imaging AI | Stroke, cardiovascular and acute-care AI | Starts at ~$25,000/center/year baseline stroke network tier (historically CMS NTAP up to $1,040/patient) | No free-for-ever tier; offers 30-day care-coordination pilot trial across primary stroke centers |
+| [Aidoc](https://www.aidoc.com/) | Aidoc | ~$1.0B Valuation (~$80M+ ARR; $150M Series E) | Clinical radiology AI | Detection, triage, workflow prioritization and multiple imaging findings | Starts at ~$6.00/scan/algorithm (marketplace) or ~$50,000/site/year baseline enterprise contract | No free-for-ever tier; clinical pilot trials granted on request (typically 30–90 day hospital site pilot) |
+| [RapidAI](https://www.rapidai.com/) | RapidAI | ~$667M Valuation (~$35M+ ARR) | Neurovascular AI | Stroke and neurovascular imaging | Starts at ~$25,000/hospital/year baseline neuro suite (qualifies for CMS NTAP up to 65% tech cost) | No free-for-ever tier; offers 30-day comprehensive stroke team trial / multi-center pilot |
+| [Rad AI](https://www.radai.com/) | Rad AI | ~$530M Valuation (~$63M ARR est.) | Radiology workflow | Reporting, workflow optimization and generative AI | Starts at ~$150/radiologist/month (~$1,800/seat/year) for reporting tools | No free-for-ever tier; 30-day clinical departmental evaluation trial (up to 10 radiologists) |
+| [Lunit](https://www.lunit.io/) | Lunit | ~$490M Market Cap (~$63M Revenue) | Imaging AI | Chest X-ray and oncology / mammography AI | Starts at ~$2.00–$5.00/scan volume tier or ~$20,000/year baseline clinical license | No free-for-ever tier; free trial limited to 14-day web demo evaluation / 30-day institutional pilot |
+| [Gleamer](https://www.gleamer.ai/) | Gleamer (RadNet) | ~€230M (~$250M) Acquisition Valuation (~$15.5M Revenue) | Musculoskeletal AI | X-ray detection and radiology assistance | Starts at ~$2.50/bone X-ray study or ~$15,000/year clinic subscription | No free-for-ever tier; offers a 30-day clinical workflow pilot trial for radiology departments |
+| [Subtle Medical](https://subtlemedical.com/) | Subtle Medical | ~$150M Valuation (~$5M–$10M ARR) | Image enhancement | MRI/PET enhancement, contrast and scan optimization | Starts at ~$1,500/month/scanner or ~$18,000/year per imaging unit | No free-for-ever tier; offers a 90-day free trial / clinical trial license for SubtlePET/SubtleMR |
+| [Annalise.ai](https://annalise.ai/) | Annalise.ai | ~$120M Valuation (~$23.4M ARR) | Chest / radiology AI | Multi-finding chest X-ray decision support | Starts at ~$2.00–$5.00/chest study or ~$18,000/year institutional tier | No free-for-ever tier; provides 30-day clinical department pilot evaluation on request |
+| [Qure.ai](https://qure.ai/) | Qure.ai | ~$100M+ Valuation (~$65M Revenue) | Medical imaging AI | Chest X-ray, CT, TB, stroke and other imaging applications | Starts at ~$1.50–$3.50/scan (₹120–₹300/scan pay-per-study) or ~$15,000/year annual SaaS tier | No free-for-ever tier; free trial limited to 30-day clinical POC / institutional evaluation pilot |
+| [Nanox AI](https://www.nanox.vision/) | Nanox AI | ~$60M Market Cap (~$14.5M TTM Revenue) | Imaging AI | Radiology AI and imaging analysis; includes technology descended from Zebra Medical Vision | Starts at ~$1.00–$4.00/scan (historically $1.00/scan for Zebra AI1) or ~$24,000/year site contract | No free-for-ever tier; offers 30-day institutional evaluation trial / multi-site clinical pilot |
+| [Oxipit](https://www.oxipit.com/) | Oxipit (Sectra) | ~$30M Acquisition Valuation (~$5.5M ARR) | Autonomous radiology AI | Chest X-ray analysis and automated reporting workflows | Starts at ~$1.00–$3.00/CXR study or ~$12,000/year hospital subscription | No free-for-ever tier; offers free one-time retrospective quality audit pilot on up to 1,000 CXR studies |
+| [Aidoc-like AI platforms](https://www.aidoc.com/) | Various Enterprise Vendors | Varies ($20M to $1B+ Scale) | Enterprise radiology AI | Detection, triage, orchestration and workflow | Starts at ~$6.00/scan or ~$35,000–$50,000/year baseline departmental license | No free-for-ever tier; evaluation trials typically negotiated as 30-day to 60-day POC pilots |
 
 
 
@@ -247,31 +264,23 @@ The strongest open-source ecosystem is therefore **composable rather than monoli
 
 
 
-| Project                                                               | Primary Role                             | License / Status                    |
-
-| --------------------------------------------------------------------- | ---------------------------------------- | ----------------------------------- |
-
-| [MONAI](https://github.com/Project-MONAI/MONAI)                       | Medical imaging AI framework             | Apache-2.0                          |
-
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel)            | AI-assisted annotation / active learning | Open source                         |
-
-| [MONAI Deploy](https://github.com/Project-MONAI/monai-deploy-app-sdk) | Clinical AI deployment                   | Open source                         |
-
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)                         | Automated medical segmentation framework | Apache-2.0                          |
-
-| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)      | Whole-body CT/MR segmentation            | Apache-2.0 for specified open tasks |
-
-| [nnDetection](https://github.com/MIC-DKFZ/nnDetection)                | Medical object detection                 | Open source                         |
-
-| [TorchIO](https://github.com/TorchIO-project/torchio)                 | 3D medical-image preprocessing           | Apache-2.0                          |
-
-| [NiftyNet](https://github.com/NifTK/NiftyNet)                         | Deep learning for medical imaging        | Archived                            |
-
-| [DeepMedic](https://github.com/deepmedic/deepmedic)                   | 3D medical image segmentation            | Open source                         |
-
-| [NiftyMIC](https://github.com/gift-surg/NiftyMIC)                     | Medical image reconstruction             | Open source                         |
-
-| [ivadomed](https://github.com/ivadomed/ivadomed)                      | Medical image segmentation               | Open source                         |
+| Project | Stars | Primary Role | License / Status |
+| --- | :---: | --- | --- |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Automated medical segmentation framework | Apache-2.0 |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Comprehensive healthcare & medical imaging AI framework | Apache-2.0 |
+| [SegLossOdyssey](https://github.com/JunMa11/SegLossOdyssey) | [![GitHub stars](https://img.shields.io/github/stars/JunMa11/SegLossOdyssey?style=social&color=white)](https://github.com/JunMa11/SegLossOdyssey/stargazers) | Curated collection of loss functions for medical image segmentation | Apache-2.0 |
+| [TransUNet](https://github.com/Beckschen/TransUNet) | [![GitHub stars](https://img.shields.io/github/stars/Beckschen/TransUNet?style=social&color=white)](https://github.com/Beckschen/TransUNet/stargazers) | Transformers as strong encoders for medical image segmentation | Open source |
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Pretrained whole-body CT/MR anatomical segmentation | Apache-2.0 / Dual |
+| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | 3D medical-image preprocessing, transforms & augmentation | Apache-2.0 |
+| [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) | [![GitHub stars](https://img.shields.io/github/stars/ellisdg/3DUnetCNN?style=social&color=white)](https://github.com/ellisdg/3DUnetCNN/stargazers) | PyTorch 3D U-Net CNN for volumetric medical segmentation | MIT |
+| [NiftyNet](https://github.com/NifTK/NiftyNet) | [![GitHub stars](https://img.shields.io/github/stars/NifTK/NiftyNet?style=social&color=white)](https://github.com/NifTK/NiftyNet/stargazers) | Deep learning codebase for medical imaging | Archived |
+| [TorchXRayVision](https://github.com/mlmed/torchxrayvision) | [![GitHub stars](https://img.shields.io/github/stars/mlmed/torchxrayvision?style=social&color=white)](https://github.com/mlmed/torchxrayvision/stargazers) | Chest X-ray datasets, pretrained models & classifiers | Apache-2.0 |
+| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D multiscale CNN for medical image segmentation | BSD-3-Clause |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive AI-assisted annotation and active learning | Apache-2.0 |
+| [nnDetection](https://github.com/MIC-DKFZ/nnDetection) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnDetection?style=social&color=white)](https://github.com/MIC-DKFZ/nnDetection/stargazers) | Self-configuring 3D medical object detection | Apache-2.0 |
+| [NiftyMIC](https://github.com/gift-surg/NiftyMIC) | [![GitHub stars](https://img.shields.io/github/stars/gift-surg/NiftyMIC?style=social&color=white)](https://github.com/gift-surg/NiftyMIC/stargazers) | Motion correction & super-resolution reconstruction | BSD-3-Clause |
+| [ivadomed](https://github.com/ivadomed/ivadomed) | [![GitHub stars](https://img.shields.io/github/stars/ivadomed/ivadomed?style=social&color=white)](https://github.com/ivadomed/ivadomed/stargazers) | Spinal cord & MRI/CT image segmentation | MIT |
+| [MONAI Deploy](https://github.com/Project-MONAI/monai-deploy-app-sdk) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/monai-deploy-app-sdk?style=social&color=white)](https://github.com/Project-MONAI/monai-deploy-app-sdk/stargazers) | Clinical AI deployment, MAP packaging & workflow execution | Apache-2.0 |
 
 
 
@@ -373,31 +382,19 @@ Segmentation is one of the most mature areas of open-source radiology AI.
 
 
 
-| Project                                                          | Main Capability                            |
-
-| ---------------------------------------------------------------- | ------------------------------------------ |
-
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)                    | General-purpose biomedical segmentation    |
-
-| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | Multi-organ CT/MR segmentation             |
-
-| [MONAI](https://github.com/Project-MONAI/MONAI)                  | Medical segmentation framework             |
-
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel)       | Interactive segmentation / active learning |
-
-| [DeepMedic](https://github.com/deepmedic/deepmedic)              | 3D segmentation                            |
-
-| [NiftyNet](https://github.com/NifTK/NiftyNet)                    | Medical image deep learning                |
-
-| [ivadomed](https://github.com/ivadomed/ivadomed)                 | Segmentation of medical images             |
-
-| [TorchIO](https://github.com/TorchIO-project/torchio)            | Data preprocessing / augmentation          |
-
-| [3D Slicer](https://github.com/Slicer/Slicer)                    | Interactive segmentation environment       |
-
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK)          | Medical image processing                   |
-
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK)              | Image-processing toolkit                   |
+| Project | Stars | Main Capability |
+| --- | :---: | --- |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | General-purpose biomedical segmentation |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Medical segmentation framework |
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Multi-organ CT/MR segmentation |
+| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Interactive segmentation environment |
+| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | Data preprocessing / augmentation |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Medical image processing |
+| [NiftyNet](https://github.com/NifTK/NiftyNet) | [![GitHub stars](https://img.shields.io/github/stars/NifTK/NiftyNet?style=social&color=white)](https://github.com/NifTK/NiftyNet/stargazers) | Medical image deep learning |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Image-processing toolkit |
+| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D segmentation |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive segmentation / active learning |
+| [ivadomed](https://github.com/ivadomed/ivadomed) | [![GitHub stars](https://img.shields.io/github/stars/ivadomed/ivadomed?style=social&color=white)](https://github.com/ivadomed/ivadomed/stargazers) | Segmentation of medical images |
 
 
 
@@ -473,25 +470,16 @@ Useful for:
 
 
 
-| Project                                                      | Focus                              |
-
-| ------------------------------------------------------------ | ---------------------------------- |
-
-| [nnDetection](https://github.com/MIC-DKFZ/nnDetection)       | 3D medical object detection        |
-
-| [MONAI](https://github.com/Project-MONAI/MONAI)              | Detection and classification       |
-
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel)   | Interactive AI annotation          |
-
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)                | Primarily segmentation, extensible |
-
-| [DeepMedic](https://github.com/deepmedic/deepmedic)          | 3D lesion analysis                 |
-
-| [Detectron2](https://github.com/facebookresearch/detectron2) | General object detection framework |
-
-| [MMDetection](https://github.com/open-mmlab/mmdetection)     | Detection framework                |
-
-| [Ultralytics](https://github.com/ultralytics/ultralytics)    | General computer vision detection  |
+| Project | Stars | Focus |
+| --- | :---: | --- |
+| [Ultralytics](https://github.com/ultralytics/ultralytics) | [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers) | General computer vision detection (YOLO) |
+| [Detectron2](https://github.com/facebookresearch/detectron2) | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/detectron2?style=social&color=white)](https://github.com/facebookresearch/detectron2/stargazers) | General object detection framework |
+| [MMDetection](https://github.com/open-mmlab/mmdetection) | [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social&color=white)](https://github.com/open-mmlab/mmdetection/stargazers) | Detection framework |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Primarily segmentation, extensible to detection |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Detection and classification |
+| [DeepMedic](https://github.com/deepmedic/deepmedic) | [![GitHub stars](https://img.shields.io/github/stars/deepmedic/deepmedic?style=social&color=white)](https://github.com/deepmedic/deepmedic/stargazers) | 3D lesion analysis |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | Interactive AI annotation |
+| [nnDetection](https://github.com/MIC-DKFZ/nnDetection) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnDetection?style=social&color=white)](https://github.com/MIC-DKFZ/nnDetection/stargazers) | 3D medical object detection |
 
 
 
@@ -529,31 +517,19 @@ The ecosystem is increasingly moving from task-specific models toward **foundati
 
 
 
-| Project / Model                                                  | Focus                                 |
-
-| ---------------------------------------------------------------- | ------------------------------------- |
-
-| [MONAI](https://github.com/Project-MONAI/MONAI)                  | Healthcare AI framework               |
-
-| [MONAI Model Zoo](https://github.com/Project-MONAI/model-zoo)    | Pretrained medical models             |
-
-| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | Anatomical segmentation               |
-
-| [MedSAM](https://github.com/bowang-lab/MedSAM)                   | Medical image segmentation            |
-
-| [SAM-Med2D](https://github.com/OpenGVLab/SAM-Med2D)              | Medical segmentation                  |
-
-| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)                    | Self-configuring segmentation         |
-
-| [BiomedCLIP](https://github.com/microsoft/BiomedCLIP)            | Biomedical vision-language model      |
-
-| [MedCLIP](https://github.com/RyanWangZf/MedCLIP)                 | Medical vision-language learning      |
-
-| [LLaVA-Med](https://github.com/microsoft/LLaVA-Med)              | Medical multimodal reasoning          |
-
-| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo)    | Medical vision-language model         |
-
-| [SAM 2](https://github.com/facebookresearch/sam2)                | General segmentation foundation model |
+| Project / Model | Stars | Focus |
+| --- | :---: | --- |
+| [SAM 2](https://github.com/facebookresearch/sam2) | [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/sam2?style=social&color=white)](https://github.com/facebookresearch/sam2/stargazers) | General segmentation foundation model |
+| [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) | [![GitHub stars](https://img.shields.io/github/stars/MIC-DKFZ/nnUNet?style=social&color=white)](https://github.com/MIC-DKFZ/nnUNet/stargazers) | Self-configuring segmentation framework |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Healthcare AI framework |
+| [MedSAM](https://github.com/bowang-lab/MedSAM) | [![GitHub stars](https://img.shields.io/github/stars/bowang-lab/MedSAM?style=social&color=white)](https://github.com/bowang-lab/MedSAM/stargazers) | Medical image segmentation foundation model |
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | [![GitHub stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=social&color=white)](https://github.com/wasserth/TotalSegmentator/stargazers) | Anatomical whole-body CT/MRI segmentation |
+| [LLaVA-Med](https://github.com/microsoft/LLaVA-Med) | [![GitHub stars](https://img.shields.io/github/stars/microsoft/LLaVA-Med?style=social&color=white)](https://github.com/microsoft/LLaVA-Med/stargazers) | Medical multimodal reasoning |
+| [SAM-Med2D](https://github.com/OpenGVLab/SAM-Med2D) | [![GitHub stars](https://img.shields.io/github/stars/OpenGVLab/SAM-Med2D?style=social&color=white)](https://github.com/OpenGVLab/SAM-Med2D/stargazers) | Medical 2D segmentation foundation model |
+| [MedCLIP](https://github.com/RyanWangZf/MedCLIP) | [![GitHub stars](https://img.shields.io/github/stars/RyanWangZf/MedCLIP?style=social&color=white)](https://github.com/RyanWangZf/MedCLIP/stargazers) | Medical vision-language learning |
+| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo) | [![GitHub stars](https://img.shields.io/github/stars/snap-stanford/med-flamingo?style=social&color=white)](https://github.com/snap-stanford/med-flamingo/stargazers) | Medical vision-language model |
+| [MONAI Model Zoo](https://github.com/Project-MONAI/model-zoo) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/model-zoo?style=social&color=white)](https://github.com/Project-MONAI/model-zoo/stargazers) | Pretrained medical imaging models |
+| [BiomedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224) | *(HF Model)* | Biomedical vision-language foundation model |
 
 
 
@@ -573,25 +549,16 @@ High-quality radiology AI depends heavily on annotation.
 
 
 
-| Project                                                     | Description                               |
-
-| ----------------------------------------------------------- | ----------------------------------------- |
-
-| [MONAI Label](https://github.com/Project-MONAI/MONAILabel)  | AI-assisted medical annotation            |
-
-| [3D Slicer](https://github.com/Slicer/Slicer)               | Medical imaging analysis and annotation   |
-
-| [OHIF](https://github.com/OHIF/Viewers)                     | Web-based imaging viewer                  |
-
-| [MITK](https://github.com/MITK/MITK)                        | Medical imaging platform                  |
-
-| [CVAT](https://github.com/cvat-ai/cvat)                     | Image/video annotation                    |
-
-| [Label Studio](https://github.com/HumanSignal/label-studio) | General data annotation                   |
-
-| [ITK-SNAP](https://github.com/pyushkevich/itksnap)          | Segmentation / annotation                 |
-
-| [QuPath](https://github.com/qupath/qupath)                  | Primarily pathology / bioimage annotation |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [Label Studio](https://github.com/HumanSignal/label-studio) | [![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social&color=white)](https://github.com/HumanSignal/label-studio/stargazers) | General data and image annotation platform |
+| [CVAT](https://github.com/cvat-ai/cvat) | [![GitHub stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers) | Computer vision annotation tool |
+| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | Web-based DICOM imaging viewer and annotation |
+| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Medical imaging analysis and segmentation |
+| [QuPath](https://github.com/qupath/qupath) | [![GitHub stars](https://img.shields.io/github/stars/qupath/qupath?style=social&color=white)](https://github.com/qupath/qupath/stargazers) | Primarily pathology / bioimage annotation |
+| [MONAI Label](https://github.com/Project-MONAI/MONAILabel) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAILabel?style=social&color=white)](https://github.com/Project-MONAI/MONAILabel/stargazers) | AI-assisted medical annotation and active learning |
+| [MITK](https://github.com/MITK/MITK) | [![GitHub stars](https://img.shields.io/github/stars/MITK/MITK?style=social&color=white)](https://github.com/MITK/MITK/stargazers) | Medical imaging platform |
+| [ITK-SNAP](https://github.com/pyushkevich/itksnap) | [![GitHub stars](https://img.shields.io/github/stars/pyushkevich/itksnap?style=social&color=white)](https://github.com/pyushkevich/itksnap/stargazers) | 3D medical image segmentation and manual contouring |
 
 
 
@@ -823,23 +790,15 @@ OHIF is MIT licensed and is designed as an extensible web medical-imaging platfo
 
 
 
-| Project                                                            | Type                     |
-
-| ------------------------------------------------------------------ | ------------------------ |
-
-| [OHIF](https://github.com/OHIF/Viewers)                            | Web DICOM viewer         |
-
-| [3D Slicer](https://github.com/Slicer/Slicer)                      | Desktop medical imaging  |
-
-| [MITK](https://github.com/MITK/MITK)                               | Medical imaging platform |
-
-| [Weasis](https://github.com/nroduit/Weasis)                        | DICOM viewer             |
-
-| [Horos](https://github.com/horosproject/horos)                     | macOS medical imaging    |
-
-| [Stone Web Viewer](https://github.com/stone-open/stone-web-viewer) | Web medical imaging      |
-
-| [Cornerstone3D](https://github.com/cornerstonejs/cornerstone3D)    | Web imaging toolkit      |
+| Project | Stars | Type |
+| --- | :---: | --- |
+| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | Extensible Web DICOM viewer (v3 / Cornerstone) |
+| [3D Slicer](https://github.com/Slicer/Slicer) | [![GitHub stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | Desktop clinical imaging & research workstation |
+| [Weasis](https://github.com/nroduit/Weasis) | [![GitHub stars](https://img.shields.io/github/stars/nroduit/Weasis?style=social&color=white)](https://github.com/nroduit/Weasis/stargazers) | Cross-platform standalone & web-linked DICOM viewer |
+| [Cornerstone3D](https://github.com/cornerstonejs/cornerstone3D) | [![GitHub stars](https://img.shields.io/github/stars/cornerstonejs/cornerstone3D?style=social&color=white)](https://github.com/cornerstonejs/cornerstone3D/stargazers) | High-performance WebGL/WebGPU web imaging viewport toolkit |
+| [MITK](https://github.com/MITK/MITK) | [![GitHub stars](https://img.shields.io/github/stars/MITK/MITK?style=social&color=white)](https://github.com/MITK/MITK/stargazers) | Medical imaging interaction & algorithm platform |
+| [Horos](https://github.com/horosproject/horos) | [![GitHub stars](https://img.shields.io/github/stars/horosproject/horos?style=social&color=white)](https://github.com/horosproject/horos/stargazers) | macOS 64-bit medical imaging viewer |
+| [Stone Web Viewer](https://www.orthanc-server.com/static.php?page=stone-web-viewer) | *(Orthanc Plugin)* | Lightweight WebAssembly DICOM web viewer for Orthanc |
 
 
 
@@ -855,23 +814,15 @@ A radiology AI system normally needs a DICOM archive or gateway.
 
 
 
-| Project                                                                         | Primary Role                    |
-
-| ------------------------------------------------------------------------------- | ------------------------------- |
-
-| [Orthanc](https://github.com/orthanc-mirrors/OrthancMirror)                     | Lightweight DICOM server        |
-
-| [dcm4chee-arc](https://github.com/dcm4che/dcm4chee-arc-light)                   | Enterprise PACS / DICOM archive |
-
-| [DICOMweb](https://www.dicomstandard.org/using/dicomweb)                        | Web-based DICOM standard        |
-
-| [dcm4che](https://github.com/dcm4che/dcm4che)                                   | DICOM toolkit                   |
-
-| [Conquest DICOM Server](https://github.com/ConquestDICOM/Conquest-DICOM-Server) | DICOM server                    |
-
-| [Orthanc DICOMweb](https://www.orthanc-server.com/)                             | DICOMweb integration            |
-
-| [OHIF](https://github.com/OHIF/Viewers)                                         | DICOMweb viewer                 |
+| Project | Stars | Primary Role |
+| --- | :---: | --- |
+| [OHIF](https://github.com/OHIF/Viewers) | [![GitHub stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | DICOMweb imaging viewer |
+| [dcm4che](https://github.com/dcm4che/dcm4che) | [![GitHub stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | DICOM toolkit & healthcare application collection |
+| [dcm4chee-arc](https://github.com/dcm4che/dcm4chee-arc-light) | [![GitHub stars](https://img.shields.io/github/stars/dcm4che/dcm4chee-arc-light?style=social&color=white)](https://github.com/dcm4che/dcm4chee-arc-light/stargazers) | Enterprise PACS / DICOM archive |
+| [Orthanc](https://github.com/jodogne/Orthanc) | [![GitHub stars](https://img.shields.io/github/stars/jodogne/Orthanc?style=social&color=white)](https://github.com/jodogne/Orthanc/stargazers) | Lightweight, RESTful DICOM server for medical imaging |
+| [Conquest DICOM Server](https://github.com/marcelvanherk/Conquest-DICOM-Server) | *(Open Source)* | Full-featured clinical & research DICOM server |
+| [Orthanc DICOMweb](https://www.orthanc-server.com/) | *(Plugin)* | Official DICOMweb (WADO-RS, QIDO-RS, STOW-RS) plugin for Orthanc |
+| [DICOMweb](https://www.dicomstandard.org/using/dicomweb) | *(Standard)* | Web-based standard for medical imaging communication |
 
 
 
@@ -919,27 +870,17 @@ Orthanc is particularly useful for development because it provides a lightweight
 
 
 
-| Project                                                                         | Language | Purpose                  |
-
-| ------------------------------------------------------------------------------- | -------- | ------------------------ |
-
-| [pydicom](https://github.com/pydicom/pydicom)                                   | Python   | DICOM file manipulation  |
-
-| [highdicom](https://github.com/ImagingDataCommons/highdicom)                    | Python   | High-level DICOM objects |
-
-| [pynetdicom](https://github.com/pydicom/pynetdicom)                             | Python   | DICOM networking         |
-
-| [dcm4che](https://github.com/dcm4che/dcm4che)                                   | Java     | DICOM toolkit            |
-
-| [dicomweb-client](https://github.com/MGHComputationalPathology/dicomweb-client) | Python   | DICOMweb client          |
-
-| [GDCM](https://github.com/InsightSoftwareConsortium/GDCM)                       | C++      | DICOM library            |
-
-| [DCMTK](https://dicom.offis.de/dcmtk.php.en)                                    | C++      | DICOM toolkit            |
-
-| [fo-dicom](https://github.com/fo-dicom/fo-dicom)                                | .NET     | DICOM library            |
-
-| [DICOMweb](https://www.dicomstandard.org/using/dicomweb)                        | Standard | Web medical imaging      |
+| Project | Stars | Language | Purpose |
+| --- | :---: | --- | --- |
+| [pydicom](https://github.com/pydicom/pydicom) | [![GitHub stars](https://img.shields.io/github/stars/pydicom/pydicom?style=social&color=white)](https://github.com/pydicom/pydicom/stargazers) | Python | Comprehensive DICOM file reading, writing & manipulation |
+| [dcm4che](https://github.com/dcm4che/dcm4che) | [![GitHub stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | Java | Complete clinical DICOM toolkit and library suite |
+| [fo-dicom](https://github.com/fo-dicom/fo-dicom) | [![GitHub stars](https://img.shields.io/github/stars/fo-dicom/fo-dicom?style=social&color=white)](https://github.com/fo-dicom/fo-dicom/stargazers) | C# / .NET | Cross-platform DICOM implementation for .NET Framework & .NET Core |
+| [DCMTK](https://github.com/DCMTK/dcmtk) | [![GitHub stars](https://img.shields.io/github/stars/DCMTK/dcmtk?style=social&color=white)](https://github.com/DCMTK/dcmtk/stargazers) | C++ | Industry-standard reference DICOM toolkit and utilities |
+| [pynetdicom](https://github.com/pydicom/pynetdicom) | [![GitHub stars](https://img.shields.io/github/stars/pydicom/pynetdicom?style=social&color=white)](https://github.com/pydicom/pynetdicom/stargazers) | Python | Python implementation of the DICOM networking protocol |
+| [GDCM](https://github.com/malaterre/GDCM) | [![GitHub stars](https://img.shields.io/github/stars/malaterre/GDCM?style=social&color=white)](https://github.com/malaterre/GDCM/stargazers) | C++ / Python | Grassroots DICOM library designed for complex medical formats |
+| [highdicom](https://github.com/ImagingDataCommons/highdicom) | [![GitHub stars](https://img.shields.io/github/stars/ImagingDataCommons/highdicom?style=social&color=white)](https://github.com/ImagingDataCommons/highdicom/stargazers) | Python | High-level DICOM objects for AI (DICOM SR, SEG, Parametric Maps) |
+| [dicomweb-client](https://github.com/dcmjs-org/dicomweb-client) | [![GitHub stars](https://img.shields.io/github/stars/dcmjs-org/dicomweb-client?style=social&color=white)](https://github.com/dcmjs-org/dicomweb-client/stargazers) | Python | Client for DICOMweb RESTful services (WADO-RS, QIDO-RS, STOW-RS) |
+| [DICOMweb](https://www.dicomstandard.org/using/dicomweb) | *(Standard)* | Standard | Official Web standard for medical imaging communication |
 
 
 
@@ -951,29 +892,17 @@ Orthanc is particularly useful for development because it provides a lightweight
 
 
 
-| Project                                                 | Purpose                              |
-
-| ------------------------------------------------------- | ------------------------------------ |
-
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | Medical image processing             |
-
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK)     | Simplified ITK interface             |
-
-| [VTK](https://github.com/Kitware/VTK)                   | Visualization / scientific computing |
-
-| [VTK.js](https://github.com/Kitware/vtk-js)             | Web visualization                    |
-
-| [ANTs](https://github.com/ANTsX/ANTs)                   | Image registration / normalization   |
-
-| [ANTsPy](https://github.com/ANTsX/ANTsPy)               | Python interface to ANTs             |
-
-| [ANTsPyX](https://github.com/ANTsX/ANTsPy)              | Python medical image processing      |
-
-| [Plastimatch](https://github.com/CGTATO/Plastimatch)    | Registration / segmentation          |
-
-| [NiBabel](https://github.com/nipy/nibabel)              | NIfTI and neuroimaging formats       |
-
-| [TorchIO](https://github.com/TorchIO-project/torchio)   | Medical imaging preprocessing        |
+| Project | Stars | Purpose |
+| --- | :---: | --- |
+| [VTK](https://github.com/Kitware/VTK) | [![GitHub stars](https://img.shields.io/github/stars/Kitware/VTK?style=social&color=white)](https://github.com/Kitware/VTK/stargazers) | Scientific visualization and 3D volume rendering engine |
+| [TorchIO](https://github.com/TorchIO-project/torchio) | [![GitHub stars](https://img.shields.io/github/stars/TorchIO-project/torchio?style=social&color=white)](https://github.com/TorchIO-project/torchio/stargazers) | Medical imaging preprocessing, spatial transforms & augmentation |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Fundamental C++ medical image segmentation and registration |
+| [VTK.js](https://github.com/Kitware/vtk-js) | [![GitHub stars](https://img.shields.io/github/stars/Kitware/vtk-js?style=social&color=white)](https://github.com/Kitware/vtk-js/stargazers) | Web browser-based scientific visualization & medical volume rendering |
+| [ANTs](https://github.com/ANTsX/ANTs) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=social&color=white)](https://github.com/ANTsX/ANTs/stargazers) | Advanced normalization tools for image registration & morphometry |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Simplified Python/C++ interface to the Insight Segmentation and Registration Toolkit |
+| [ANTsPy](https://github.com/ANTsX/ANTsPy) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTsPy?style=social&color=white)](https://github.com/ANTsX/ANTsPy/stargazers) | High-performance Python interface to ANTs image registration algorithms |
+| [NiBabel](https://github.com/nipy/nibabel) | [![GitHub stars](https://img.shields.io/github/stars/nipy/nibabel?style=social&color=white)](https://github.com/nipy/nibabel/stargazers) | Neuroimaging format parser (NIfTI, Analyze, FreeSurfer, DICOM) |
+| [Plastimatch](https://github.com/CGTATO/Plastimatch) | [![GitHub stars](https://img.shields.io/github/stars/CGTATO/Plastimatch?style=social&color=white)](https://github.com/CGTATO/Plastimatch/stargazers) | Volumetric image computation, B-spline deformable registration & RT |
 
 
 
@@ -1005,21 +934,14 @@ Image registration is critical for:
 
 
 
-| Project                                                 | Main Capability             |
-
-| ------------------------------------------------------- | --------------------------- |
-
-| [ANTs](https://github.com/ANTsX/ANTs)                   | Deformable registration     |
-
-| [ANTsPy](https://github.com/ANTsX/ANTsPy)               | Python registration         |
-
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK)     | Registration / processing   |
-
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | Image processing            |
-
-| [Elastix](https://github.com/SuperElastix/elastix)      | Image registration          |
-
-| [Plastimatch](https://github.com/CGTATO/Plastimatch)    | Registration / radiotherapy |
+| Project | Stars | Main Capability |
+| --- | :---: | --- |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Core C++ medical registration and transformation framework |
+| [ANTs](https://github.com/ANTsX/ANTs) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=social&color=white)](https://github.com/ANTsX/ANTs/stargazers) | Symmetric diffeomorphic (SyN) deformable registration |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Multi-language image registration and filter interface |
+| [ANTsPy](https://github.com/ANTsX/ANTsPy) | [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTsPy?style=social&color=white)](https://github.com/ANTsX/ANTsPy/stargazers) | Pythonic deformable and rigid registration |
+| [Elastix](https://github.com/SuperElastix/elastix) | [![GitHub stars](https://img.shields.io/github/stars/SuperElastix/elastix?style=social&color=white)](https://github.com/SuperElastix/elastix/stargazers) | Modular intensity-based medical image registration tool |
+| [Plastimatch](https://github.com/CGTATO/Plastimatch) | [![GitHub stars](https://img.shields.io/github/stars/CGTATO/Plastimatch?style=social&color=white)](https://github.com/CGTATO/Plastimatch/stargazers) | B-spline deformable registration & radiotherapy analysis |
 
 
 
@@ -1081,17 +1003,12 @@ Prediction
 
 
 
-| Project                                                   | Description                         |
-
-| --------------------------------------------------------- | ----------------------------------- |
-
-| [PyRadiomics](https://github.com/AIM-Harvard/pyradiomics) | Major open-source radiomics toolkit |
-
-| [MONAI](https://github.com/Project-MONAI/MONAI)           | Imaging AI framework                |
-
-| [ITK](https://github.com/InsightSoftwareConsortium/ITK)   | Image processing                    |
-
-| [SimpleITK](https://github.com/SimpleITK/SimpleITK)       | Image processing                    |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Healthcare and medical imaging AI deep learning framework |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | [![GitHub stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Biomedical image spatial processing and segmentation library |
+| [PyRadiomics](https://github.com/AIM-Harvard/pyradiomics) | [![GitHub stars](https://img.shields.io/github/stars/AIM-Harvard/pyradiomics?style=social&color=white)](https://github.com/AIM-Harvard/pyradiomics/stargazers) | Reference open-source radiomics feature extraction toolkit |
+| [SimpleITK](https://github.com/SimpleITK/SimpleITK) | [![GitHub stars](https://img.shields.io/github/stars/SimpleITK/SimpleITK?style=social&color=white)](https://github.com/SimpleITK/SimpleITK/stargazers) | Streamlined Python image processing layer for radiomic ROI masking |
 
 
 
@@ -3297,46 +3214,31 @@ For clinical applications, perform appropriate technical, clinical, safety, regu
 
 ## ⭐ Star This Repository
 
-
-
 If you are interested in:
 
-
-
 * Radiology AI
-
 * Medical Imaging AI
-
 * Healthcare AI
-
 * Open-Source Medical AI
-
 * MONAI
-
 * nnU-Net
-
 * DICOM
-
 * PACS
-
 * Medical Segmentation
-
 * Medical Foundation Models
-
 * Clinical AI
-
 * AI-assisted Radiology
-
 * Open-Source Healthcare
-
-
 
 consider giving this repository a ⭐ **Star** and contributing new projects.
 
+---
 
+## Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Radiology-AI-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Radiology-AI-Platform&type=date&legend=top-left)
 
 ---
 
-
-
 **Last updated: September 2026**
+
